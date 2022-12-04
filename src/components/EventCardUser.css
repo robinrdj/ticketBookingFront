@@ -1,0 +1,24 @@
+
+
+.eventCardUser{
+    border: 1px solid gray;
+    padding: 10px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.eventCardUser__left{
+    flex: 0.3;
+ }
+ 
+ .eventCardUser__right{
+     flex: 0.7;
+ }
+
+ .eventCardUser__image{
+     object-fit: contain;
+     width: 600;
+ }
